@@ -1,7 +1,6 @@
 
-// GET reqest to bioDetails
+
 exports.bioDetails = {
-  message:"Know a bit about Olúbùsọ́lá 🙌",
   slackUsername: "Olúbùsọ́lá",
   backend: true,
   age: 26,
