@@ -1,7 +1,11 @@
 const express = require("express");
 const app = express();
-const route = require("./src/router/router")
+const route = require("./router/router")
 const cors = require("cors")
+const bodyParser = require('body-parser')
+
+app.use(bodyParser.json());
+bodyParser.urlencoded({ extended: false })
 
 // allow cors
 app.use(cors())
